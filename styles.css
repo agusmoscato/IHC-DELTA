@@ -1,0 +1,303 @@
+.colorBg {
+    background-color: rgba(11, 31, 102, 1) !important;
+}
+
+/* NavBar */
+.nav-item{
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.customBtn{
+    background-color: rgba(229, 25, 55, 1);
+    align-items: center;
+    appearance: none;
+    border-radius: 4px;
+    border-width: 0;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    height: 36px;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    font-size: 16px;
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
+}
+.customBtn:hover { transform: translateY(-2px); }
+  
+.customBtn:active { transform: translateY(2px); }
+
+#btnInscribirse {
+    background: none !important;
+}
+/* NavBar */
+
+
+/* Footer */
+footer {
+    position: absolute; /* Fijo en la parte inferior */
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* Espaciado */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .customBtn{
+    background: none;
+}
+/* Footer */
+
+/* Inicio */
+
+.body-container-buscar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 7rem;
+    margin-top: 57px;
+}
+.body-container-buscar div span{
+    color: white;
+    text-align-last: center;
+    width: 7rem;
+}
+
+.buscar-text{
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
+    font-size: 1.2rem;
+    text-decoration: none;
+    height: 3rem;
+    width: 12rem;
+    align-content: center;
+    border-bottom: solid;
+}
+
+.buscar-text-desde-hasta{
+    border: none;
+    text-align: center;
+}
+
+
+.buscar-desde-hasta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+}
+
+.buscar-desde-hasta button{
+    background: none;
+}
+
+.buscar-desde-hasta-container {
+    display: flex;
+}
+
+.home-body {
+    height: 80vh; /* Altura completa de la ventana */
+    font-family: Arial, sans-serif;
+    background-image: url('./media/bgInicio.jpg');
+    display: flex;
+    align-content: center;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.body-container{
+    align-content: center;
+}
+.body-container h1{
+    width: 50%;
+}
+.body-container h3{
+    width: 50%;
+}
+.body-title{
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 40%);
+    font-size: 3rem;
+}
+.body-subtitle{
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
+    font-size: 2rem;
+}
+/* Inicio */
+
+/* Reservas */
+.body-main{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.body-main h1{
+    margin-left: 1rem;
+}
+.body-main h2{
+    margin: 2rem;
+}
+.section-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+.card-container{
+    width: 20rem;
+}
+.card-container img{
+    width: -webkit-fill-available;
+}
+.card-content{
+    background-color: rgba(246, 246, 247, 1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    
+    border: 2px solid #d9d9d9;
+}
+.card-content h3{
+    margin-bottom: 1.5rem;
+    font-size: x-large;
+    color: rgba(11, 31, 102, 1);
+    letter-spacing: 3px;
+}
+.card-btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.btnI{
+    background-color: rgba(11, 31, 102, 1);
+    border-radius: 100%;
+}
+.info {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.buscar-desde-hasta-reservas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    border: 2px solid #d9d9d9;
+}
+.body-container-buscar-reservas {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 7rem;
+    margin-top: 57px;
+}
+
+.buscar-desde-hasta-container {
+    display: flex;
+}
+
+/* Reservas */
+
+
+
+
+
+.panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.panel section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    box-shadow: 0px 0px 20px 1000px rgb(0 0 0 / 50%);
+    width: 50em;
+    height: 45em;
+    z-index: 1000;
+}
+
+.contenedor-panel-buscar{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.panel-buscar-text{color: white;
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
+    font-size: 1.2rem;
+    text-decoration: none;
+    height: 3rem;
+    width: 8rem;
+    align-content: center;
+}
+
+.panel[data-on='on'] {
+  transform: scale(1);
+}
+
+.panel[data-on='off'] {
+  transform: scale(0);
+}
+
+#cerrarBtn{
+    margin-left: auto;
+    margin-right: 1em;
+    border-radius: 100%;
+    font-size: larger;
+    width: 35px;
+    color: white;
+    background: black;
+    border: none;
+    height: 35px;
+}
+
+.form-panel-buscar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: -webkit-fill-available;
+    }
+    
+
+.form-panel-buscar input{
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+} 
